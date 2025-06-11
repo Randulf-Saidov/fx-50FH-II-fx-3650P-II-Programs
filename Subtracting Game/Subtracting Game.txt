@@ -3,11 +3,11 @@ Subtracting Game for fx-50FH II and fx-3650P II 62 bytes
 Fix 0:
 10->A:
 Lbl 0:
+9⁻¹(-1+₁₀^(A◢
 ?->X:
 X≠Rnd(X=>Goto 0:
 Rnd(3⁻¹(X-2=>Goto 0:
 X>A=>Goto 0:
 A-X->A:
-9⁻¹(-1+₁₀^(A◢
 A=>Goto 0:
 π
