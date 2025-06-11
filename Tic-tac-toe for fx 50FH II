@@ -3,7 +3,7 @@ Tic-tac-toe for fx-50FH II (CMPLX Mode) 480 bytes
 Lbl 6:
 Fix 0:
 tiC┘tAC┘tσe◢
-9-1(ᴇ9-1->A:
+9⁻¹(ᴇ9-1->A:
 9->D:
 Lbl 0:
 If D=6:
@@ -15,27 +15,27 @@ D◢
 Lbl 1:
 ?->X:
 X≠Conjg(Rnd(X=>Goto 1:
-Rnd(3-1(X-1=>Goto 1:
+Rnd(3⁻¹(X-1=>Goto 1:
 
 Lbl 2:
 ?->Y:
 Y≠Conjg(Rnd(Y=>Goto 2:
-Rnd(3-1(Y-1=>Goto 2:
+Rnd(3⁻¹(Y-1=>Goto 2:
 
 3Y-X+2->X:
-1-Rnd(A10^(-X)-.5)+10Rnd(-.5+A10^(-X-1=>Goto 1:
-A+10^(X)(D-1->A:
+1-Rnd(A₁₀^(-X)-.5)+10Rnd(-.5+A₁₀^(-X-1=>Goto 1:
+A+₁₀^(X)(D-1->A:
 For 0->C To 6 Step 3:
-Rnd(A10^(-C)-.5)-ᴇ3Rnd(-.5+A10^(-C-3◢
+Rnd(A₁₀^(-C)-.5)-ᴇ3Rnd(-.5+A₁₀^(-C-3◢
 Next:
 
 0->M:
 For X-3Y->C To X-3Y+6 Step 3:
-Rnd(A10^(-C)-.5)-10Rnd(-.5+A10^(-C-1M+:
+Rnd(A₁₀^(-C)-.5)-10Rnd(-.5+A₁₀^(-C-1M+:
 Next:
 M=3D=>Goto 5:
 
-Rnd(A10^(-3Y)-.5)-ᴇ3Rnd(-.5+A10^(-3Y-3->B:
+Rnd(A₁₀^(-3Y)-.5)-ᴇ3Rnd(-.5+A₁₀^(-3Y-3->B:
 B=111D=>Goto 5:
 
 
@@ -44,7 +44,7 @@ X-2(X=4->B:
 Lbl 3:
 0->M:
 For B->C To 8-B Step 4-B:
-Rnd(A10^(-C)-.5)-10Rnd(-.5+A10^(-C-1M+:
+Rnd(A₁₀^(-C)-.5)-10Rnd(-.5+A₁₀^(-C-1M+:
 Next:
 M=3D=>Goto 5:
 If B(X=4:
@@ -56,14 +56,15 @@ IfEnd:
 
 Lbl 4:
 For 0->C To 8:
-Rnd(A10^(-C)-.5)-10Rnd(-.5+A10^(-C-1:
+Rnd(A₁₀^(-C)-.5)-10Rnd(-.5+A₁₀^(-C-1:
 Ans=1=>Goto 0:
 Next:
 
-Gαme┘σueR◢
+
+Gαmₑ┘σueR◢
 DRαuu◢
 Goto 6:
 Lbl 5:
-Gαme┘σueR◢
+Gαmₑ┘σueR◢
 D◢
 i2┘the┘uuiππeR
