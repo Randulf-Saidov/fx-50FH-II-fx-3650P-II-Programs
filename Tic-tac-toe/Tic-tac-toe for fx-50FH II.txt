@@ -38,7 +38,6 @@ M=3D=>Goto 5:
 Rnd(A₁₀^(-3Y)-.5)-ᴇ3Rnd(-.5+A₁₀^(-3Y-3->B:
 B=111D=>Goto 5:
 
-
 X≠2Rnd(.5X=>Goto 4:
 X-2(X=4->B:
 Lbl 3:
