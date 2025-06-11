@@ -1,0 +1,10 @@
+Complex Number Raised to a Complex Power for fx-50 FH II (CMPLX Mode) 58 bytes
+
+?->A:
+?->B:
+.5(B+Conjg(B->C:
+i(C-B->D:
+Rad:
+Carg(A)+Dln(Abs(A:
+cos(Ans)+isin(Ans:
+AnsAbs(A)^(C)e^(-Darg(A
