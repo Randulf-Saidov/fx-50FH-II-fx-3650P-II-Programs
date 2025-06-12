@@ -1,15 +1,12 @@
-Tic-tac-toe for fx-50FH II (CMPLX Mode) 480 bytes
+Tic-tac-toe for fx-50FH II (CMPLX Mode) 471 bytes
 
 Lbl 6:
 Fix 0:
 tiC┘tAC┘tσe◢
 9⁻¹(ᴇ9-1->A:
-9->D:
+8->D:
 Lbl 0:
-If D=6:
-Then 9->D:
-Else 6->D:
-IfEnd:
+3+8-D->D:
 D◢
 
 Lbl 1:
