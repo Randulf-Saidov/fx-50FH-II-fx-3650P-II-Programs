@@ -1,28 +1,4 @@
-Polynomial Expansion for fx-50FH II and fx-3650P II
-
-Old Version
-88 + len(f(x)) bytes
-
-?->Y:
-Y+1=>Y:
-2π┘Y->C:
-Y->A:
-Lbl 1:
-MM-:
-A-1->A:
-Y->B:
-Lbl 2:
-B-1->B:
-cos(BCʳ)+isin(BCʳ->X:
-cos(ABCʳ)-isin(ABCʳ->D:
-(Insert function here):
-AnsDM+:
-B=>Goto 2:
-M┘Y◢
-A=>Goto 1
-
-New Version
-86 + len(f(x)) bytes
+Polynomial Expansion for fx-50FH II and fx-3650P II 86 + len(f(x)) bytes
 
 ClrMemory:
 ?->A:
