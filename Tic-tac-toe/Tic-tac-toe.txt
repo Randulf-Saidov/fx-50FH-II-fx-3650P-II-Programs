@@ -1,4 +1,4 @@
-Tic-tac-toe for fx-50FH II (CMPLX Mode) 471 bytes
+Tic-tac-toe for fx-50FH II (CMPLX Mode) 465 bytes
 
 Lbl 6:
 Fix 0:
@@ -43,12 +43,10 @@ For B->C To 8-B Step 4-B:
 Rnd(A₁₀^(-C)-.5)-10Rnd(-.5+A₁₀^(-C-1M+:
 Next:
 M=3D=>Goto 5:
-If B(X=4:
-Then While 1:
+While B(X=4:
 0->B:
 Goto 3:
 WhileEnd:
-IfEnd:
 
 Lbl 4:
 For 0->C To 8:
