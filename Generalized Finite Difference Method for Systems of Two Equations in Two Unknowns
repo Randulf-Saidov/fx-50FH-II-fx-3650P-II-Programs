@@ -1,0 +1,25 @@
+Generalized Finite Difference Method for Systems of Two Equations in Two Unknowns (CMPLX Mode) 171 + len(f(x,y)) + len(g(x,y)) bytes
+
+Lbl 0:
+?->X:
+.5i(Conjg(X)-X->Y:
+X-Yi->X:
+For 0->D To 2:
+X+.1(D=0->X:
+Y+.1(D=2->Y:
+MM-:
+(Insert f(x,y) here):
+AnsM+:
+(Insert g(x,y) here):
+iAnsM+:
+D=0=>M->A:
+D=1=>M->B:
+M->C:
+X-.1(D=0->X:
+Y-.1(D=2->Y:
+Next:
+10(A-B->A:
+10(C-B->C:
+BConjg(C)-CConjg(B)+i(AConjg(B)-BConjg(A:
+X+Yi-Ans÷(AConjg(C)-CConjg(A->X:
+Goto 0
