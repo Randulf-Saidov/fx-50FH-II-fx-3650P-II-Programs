@@ -1,4 +1,4 @@
-Generalized Finite Difference Method for Systems of Two Equations in Two Unknowns (CMPLX Mode) 171 + len(f(x,y)) + len(g(x,y)) bytes
+Generalized Finite Difference Method for Systems of Two Equations in Two Unknowns for fx-50FH II and fx-3650P II (CMPLX Mode) 171 + len(f(x,y)) + len(g(x,y)) bytes
 
 Lbl 0:
 ?->X:
