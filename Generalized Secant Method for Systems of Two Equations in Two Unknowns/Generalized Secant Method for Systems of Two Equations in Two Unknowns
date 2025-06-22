@@ -1,0 +1,27 @@
+Generalized Secant Method for Systems of Two Equations in Two Unknowns for fx-50FH II and fx-3650P II (CMPLX Mode) 160 + len(f(x,y)) + len(g(x,y)) bytes
+
+ClrMemory:
+Lbl 0:
+?->X:
+.5i(Conjg(X)-X->Y:
+x-Yi->X:
+MM-:
+f(x,y):AnsM+
+g(x,y):iAnsM+:
+X+Yi->X:
+M->Y:
+
+MM-:
+(X=A)+(A=B=>Goto 1:
+X(CConjg(D)-DConjg(CM+:
+B(CConjg(Y)-YConjg(CM-:
+A(DConjg(Y)-YConjg(DM+:
+M÷(Conjg(C)(Y-D)+Conjg(D)(C-Y)+Conjg(Y)(D-C->M:
+Lbl 1:
+
+B->A:
+X->B:
+M->X:
+D->C:
+Y->D:
+Goto 0
