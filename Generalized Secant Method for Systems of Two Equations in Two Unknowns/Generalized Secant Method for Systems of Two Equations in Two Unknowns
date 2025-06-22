@@ -6,8 +6,10 @@ Lbl 0:
 .5i(Conjg(X)-X->Y:
 x-Yi->X:
 MM-:
-f(x,y):AnsM+
-g(x,y):iAnsM+:
+(Insert f(x,y) here):
+AnsM+:
+(Insert g(x,y) here):
+iAnsM+:
 X+Yi->X:
 M->Y:
 
