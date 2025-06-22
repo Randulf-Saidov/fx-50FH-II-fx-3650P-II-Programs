@@ -4,7 +4,7 @@ ClrMemory:
 Lbl 0:
 ?->X:
 .5i(Conjg(X)-X->Y:
-x-Yi->X:
+X-Yi->X:
 MM-:
 (Insert f(x,y) here):
 AnsM+:
