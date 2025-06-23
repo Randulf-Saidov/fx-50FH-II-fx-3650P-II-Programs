@@ -4,6 +4,7 @@ Lbl 0:
 ?->X:
 .5i(Conjg(X)-X->Y:
 X-Yi->X:
+
 For 0->D To 2:
 X+.1(D=0->X:
 Y+.1(D=2->Y:
@@ -18,6 +19,7 @@ M->C:
 X-.1(D=0->X:
 Y-.1(D=2->Y:
 Next:
+
 10(A-B->A:
 10(C-B->C:
 BConjg(C)-CConjg(B)+i(AConjg(B)-BConjg(A:
