@@ -18,7 +18,8 @@ If (X≠A)(A≠B:
 Then X(CConjg(D)-DConjg(CM+:
 B(CConjg(Y)-YConjg(CM-:
 A(DConjg(Y)-YConjg(DM+:
-M÷(Conjg(C)(Y-D)+Conjg(D)(C-Y)+Conjg(Y)(D-C->M:
+CConjg(D)-(C-D)Conjg(Y:
+M÷(Ans-Conjg(Ans->M:
 IfEnd:
 
 B->A:
