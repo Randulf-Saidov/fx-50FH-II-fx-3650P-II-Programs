@@ -1,4 +1,4 @@
-Generalized Finite Difference Method for Systems of Two Equations in Two Unknowns for fx-50FH II and fx-3650P II (CMPLX Mode) 171 + len(f(x,y)) + len(g(x,y)) bytes
+Generalized Finite Difference Method for Systems of Two Equations in Two Unknowns for fx-50FH II and fx-3650P II (CMALX Mode) 159 + len(f(x,y)) + len(g(x,y)) bytes
 
 Lbl 0:
 ?->X:
@@ -6,7 +6,7 @@ Lbl 0:
 X-Yi->X:
 
 For 0->D To 2:
-X+.1(D=0->X:
+X+.1(D=1->X:
 Y+.1(D=2->Y:
 MM-:
 (Insert f(x,y) here):
@@ -14,14 +14,12 @@ AnsM+:
 (Insert g(x,y) here):
 iAnsM+:
 D=0=>M->A:
-D=1=>M->B:
-M->C:
-X-.1(D=0->X:
+D=1=>M-A->B:
+M-A->C:
+X-.1(D=1->X:
 Y-.1(D=2->Y:
 Next:
 
-10(A-B->A:
-10(C-B->C:
-BConjg(C)-CConjg(B)+i(AConjg(B)-BConjg(A:
-X+Yi-Ans÷(AConjg(C)-CConjg(A->X:
+AConjg(C)-CConjg(A)+i(BConjg(A)-AConjg(B:
+X+Yi-.1Ans÷(BConjg(C)-CConjg(B->X:
 Goto 0
