@@ -13,7 +13,7 @@ This program is a simple implementation of the classic Tic-tac-toe game for fx-5
   | **1** | 5 | 4 | 3 |
   | **2** | 8 | 7 | 6 |
   
-  Player 1 uses the character `3` while Player 2 uses the character `8`.
+  Player 1 uses the character `3` while Player 2 uses the character `8`. Character `0` represents empty space.
 
 - If the cell is occupied or the cell does not exist, you will be asked for another input.
 - If the input is validated, the program will update and display the board.
