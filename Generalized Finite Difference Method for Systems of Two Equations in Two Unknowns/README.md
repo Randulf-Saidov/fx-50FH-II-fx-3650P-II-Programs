@@ -4,6 +4,6 @@ This program is a simple implementation of the generalized finite difference met
 
 ## Instructions
 
-- Insert the functions $f(x,y)$ and $g(x,y)$ in the specific spots for solving the systems of the two equations $f(x,y)$ and $g(x,y)$.
+- Insert the functions $f(x,y)$ and $g(x,y)$ in the specific spots for solving the systems of the two equations $f(x,y)=0$ and $g(x,y)=0$.
 - Input the coordinates of a point in terms of $a+bi$.
 - Press `EXE` until it reaches the desired result.
