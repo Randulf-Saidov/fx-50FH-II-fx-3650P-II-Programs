@@ -15,6 +15,6 @@ This program is a simple implementation of the classic Tic-tac-toe game for fx-5
   
   Player 1 uses `3` while Player 2 uses `8`; `0` represents empty space.
 
-- If the cell is occupied or the cell does not exist, you will be asked for another input.
+- If the cell is occupied or does not exist, you will be asked for another input.
 - If the input is validated, the program will update and display the board.
 - The game announces a win or draw at the end.  Press `EXE` to restart.
