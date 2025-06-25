@@ -5,7 +5,7 @@ This program is a simple implementation of the classic Tic-tac-toe game for fx-5
 ## Instructions
 
 - When the title screen shows up, press `EXE` to start.
-- The program will show whose turn it is; enter the coordinates according to the 3×3 grid below:
+- The program will show whose turn it is; enter the coordinates of the cell you want to place your character in according to the 3×3 grid below:
   
   |       | 0 | 1 | 2 |
   |-------|---|---|---|
@@ -15,6 +15,6 @@ This program is a simple implementation of the classic Tic-tac-toe game for fx-5
   
   Player 1 uses the character `3` while Player 2 uses the character `8`.
 
-- If you try to place your character onto an occupied cell or the requested cell does not exist, you will be asked to for another input.
+- If the cell is occupied or the cell does not exist, you will be asked to for another input.
 - If the input is confirmed, the program will update and display the board.
 - The game announces a win or draw at the end.  Press `EXE` to restart.
