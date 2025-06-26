@@ -1,6 +1,6 @@
 # Generalized Finite Difference Method for Systems of Two Equations in Two Unknowns
 
-This program is a simple implementation of the generalized finite difference method for systems of two equations in two unknowns for fx-50 FH II and fx-3650P II.
+This program is a simple implementation of the generalized finite difference method for systems of two equations in two unknowns for fx-50FH II and fx-3650P II.
 
 ## Instructions
 
