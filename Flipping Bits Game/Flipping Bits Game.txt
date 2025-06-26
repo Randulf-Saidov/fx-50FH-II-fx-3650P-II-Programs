@@ -8,6 +8,7 @@ For 0->C To 8:
 Next:
 M->A:
 A->B:
+-2->D:
 
 Lbl 0:
 (D=0)(A=B=>-2->D:
