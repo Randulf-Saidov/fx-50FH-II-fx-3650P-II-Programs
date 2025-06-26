@@ -20,7 +20,7 @@ Next:
 IfEnd:
 
 D<0=>Goto 2:
-Then For 0->C To 6 Step 3:
+For 0->C To 6 Step 3:
 Rnd(A₁₀^(-C)-.5)-ᴇ3Rnd(-.5+A₁₀^(-C-3◢
 Next:
 A=B=>Goto 4:
