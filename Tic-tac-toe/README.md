@@ -1,6 +1,6 @@
 # Tic-tac-toe
 
-This program is a simple implementation of the classic Tic-tac-toe game for fx-50 FH II. The game allows two players to take turns marking `3` and `8` on a 3x3 grid, with the goal of getting three in a row horizontally, vertically, or diagonally.
+This program is a simple implementation of the classic Tic-tac-toe game for fx-50FH II. The game allows two players to take turns marking `3` and `8` on a 3x3 grid, with the goal of getting three in a row horizontally, vertically, or diagonally.
 
 ## Instructions
 
