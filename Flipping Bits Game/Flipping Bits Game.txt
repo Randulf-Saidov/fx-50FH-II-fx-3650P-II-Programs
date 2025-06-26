@@ -1,4 +1,4 @@
-Flipping Bits Game for fx-50FH II 396 bytes
+Flipping Bits Game for fx-50FH II 392 bytes
 
 ClrMemory:
 Fix 0:
@@ -11,7 +11,7 @@ A->B:
 -2->D:
 
 Lbl 0:
-(D≤0)(A=B=>-2->D:
+D(A=B=>-2->D:
 D>0=>D◢
 If D=0:
 Then For 0->C To 6 Step 3:
