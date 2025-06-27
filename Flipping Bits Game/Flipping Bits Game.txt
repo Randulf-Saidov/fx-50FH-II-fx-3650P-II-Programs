@@ -1,4 +1,4 @@
-Flipping Bits Game for fx-50FH II and fx-3650P II 377 bytes
+Flipping Bits Game for fx-50FH II and fx-3650P II 372 bytes
 
 ClrMemory:
 Fix 0:
@@ -44,8 +44,7 @@ For 3-X->C To 9-X Step 3:
 Next:
 A-2M+111⁻¹₁₀^(3-X)(ᴇ9-1->A:
 Else Rnd(A₁₀^(3-3Y)-.5)-ᴇ3Rnd(-.5+A₁₀^(-3Y:
-Ans₁₀^(3Y-3:
-A-2Ans+999₁₀^(3Y-3->A:
+A-(2Ans-999)₁₀^(3Y-3->A:
 IfEnd:
 
 D+1->D:
