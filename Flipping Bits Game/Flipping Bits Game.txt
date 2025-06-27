@@ -15,11 +15,11 @@ D=0=>A=B=>-2->D:
 D<0=>Goto 2:
 D◢
 For 0->C To 6 Step 3:
-Rnd(B₁₀^(-C)-.5)-ᴇ3Rnd(-.5+B₁₀^(-C-3◢
+Rnd(A₁₀^(-C)-.5)-ᴇ3Rnd(-.5+A₁₀^(-C-3◢
 Next:
 
 For 0->C To 6 Step 3:
-Rnd(A₁₀^(-C)-.5)-ᴇ3Rnd(-.5+A₁₀^(-C-3◢
+Rnd(B₁₀^(-C)-.5)-ᴇ3Rnd(-.5+B₁₀^(-C-3◢
 Next:
 A=B=>Goto 4:
 
