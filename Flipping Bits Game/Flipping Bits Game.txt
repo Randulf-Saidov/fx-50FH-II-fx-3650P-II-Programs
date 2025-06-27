@@ -11,8 +11,8 @@ A->B:
 -2->D:
 
 Lbl 0:
-D<0=>Goto 2:
 D=0=>A=B=>-2->D:
+D<0=>Goto 2:
 D◢
 For 0->C To 6 Step 3:
 Rnd(B₁₀^(-C)-.5)-ᴇ3Rnd(-.5+B₁₀^(-C-3◢
