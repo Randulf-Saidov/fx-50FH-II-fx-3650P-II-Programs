@@ -1,0 +1,19 @@
+One-dimensional Cellular Automata for fx-50FH II and fx-3650P II 119 bytes
+
+ClrMemory:
+Fix 0:
+9⁻¹(ᴇ10-1->X:
+For 0->D To 9:
+X+7₁₀^(D)Rnd(Ran#->X:
+Next:
+Lbl 0:
+X◢
+9⁻¹(ᴇ10-1->M:
+For 0->D To 12:
+Rnd(X₁₀^(-D)-.5)-10Rnd(X₁₀^(-D-1)-.5->A:
+A+B+C=17=>7₁₀^(D-1M+:
+B->C:
+A->B:
+Next:
+M->X:
+Goto 0
