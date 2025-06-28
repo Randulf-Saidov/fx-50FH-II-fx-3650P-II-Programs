@@ -14,11 +14,11 @@ D=0=>A=B=>-2->D:
 D<0=>Goto 2:
 D◢
 For 0->C To 6 Step 3:
-Rnd(A₁₀^(-C)-.5)-ᴇ3Rnd(-.5+A₁₀^(-C-3◢
+Rnd(A₁₀^(-C)-.5)-ᴇ3Rnd(A₁₀^(-C-3)-.5◢
 Next:
 
 For 0->C To 6 Step 3:
-Rnd(B₁₀^(-C)-.5)-ᴇ3Rnd(-.5+B₁₀^(-C-3◢
+Rnd(B₁₀^(-C)-.5)-ᴇ3Rnd(B₁₀^(-C-3)-.5◢
 Next:
 A=B=>Goto 4:
 
@@ -41,10 +41,10 @@ IfEnd:
 If X:
 Then MM-:
 For 3-X->C To 9-X Step 3:
-₁₀^(C)(Rnd(A₁₀^(-C)-.5)-10Rnd(-.5+A₁₀^(-C-1M+:
+₁₀^(C)(Rnd(A₁₀^(-C)-.5)-10Rnd(A₁₀^(-C-1)-.5M+:
 Next:
 A-2M+111⁻¹₁₀^(3-X)(ᴇ9-1->A:
-Else Rnd(A₁₀^(3-3Y)-.5)-ᴇ3Rnd(-.5+A₁₀^(-3Y:
+Else Rnd(A₁₀^(3-3Y)-.5)-ᴇ3Rnd(A₁₀^(-3Y)-.5:
 A-(2Ans-999)₁₀^(3Y-3->A:
 IfEnd:
 
