@@ -19,19 +19,19 @@ Y≠Conjg(Rnd(Y=>Goto 2:
 Rnd(3⁻¹(Y-1=>Goto 2:
 
 3Y-X+2->X:
-1-Rnd(A₁₀^(-X)-.5)+10Rnd(-.5+A₁₀^(-X-1=>Goto 1:
+1-Rnd(A₁₀^(-X)-.5)+10Rnd(A₁₀^(-X-1)-.5=>Goto 1:
 A+₁₀^(X)(D-1->A:
 For 0->C To 6 Step 3:
-Rnd(A₁₀^(-C)-.5)-ᴇ3Rnd(-.5+A₁₀^(-C-3◢
+Rnd(A₁₀^(-C)-.5)-ᴇ3Rnd(A₁₀^(-C-3)-.5◢
 Next:
 
 MM-:
 For X-3Y->C To X-3Y+6 Step 3:
-Rnd(A₁₀^(-C)-.5)-10Rnd(-.5+A₁₀^(-C-1M+:
+Rnd(A₁₀^(-C)-.5)-10Rnd(A₁₀^(-C-1)-.5M+:
 Next:
 M=3D=>Goto 5:
 
-Rnd(A₁₀^(-3Y)-.5)-ᴇ3Rnd(-.5+A₁₀^(-3Y-3->B:
+Rnd(A₁₀^(-3Y)-.5)-ᴇ3Rnd(A₁₀^(-3Y-3)-.5->B:
 B=111D=>Goto 5:
 
 X≠2Rnd(.5X=>Goto 4:
@@ -39,7 +39,7 @@ X-2(X=4->B:
 Lbl 3:
 MM-:
 For B->C To 8-B Step 4-B:
-Rnd(A₁₀^(-C)-.5)-10Rnd(-.5+A₁₀^(-C-1M+:
+Rnd(A₁₀^(-C)-.5)-10Rnd(A₁₀^(-C-1)-.5M+:
 Next:
 M=3D=>Goto 5:
 While B(X=4:
@@ -49,7 +49,7 @@ WhileEnd:
 
 Lbl 4:
 For 0->C To 8:
-Rnd(A₁₀^(-C)-.5)-10Rnd(-.5+A₁₀^(-C-1:
+Rnd(A₁₀^(-C)-.5)-10Rnd(A₁₀^(-C-1)-.5:
 Ans=1=>Goto 0:
 Next:
 
