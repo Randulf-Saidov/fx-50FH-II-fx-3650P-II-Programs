@@ -28,3 +28,33 @@ M->X:
 D->C:
 Y->D:
 Goto 0
+
+(CMPLX Mode) 139 + len(f(x,y)) + len(g(x,y)) bytes
+
+ClrMemory:
+While 1:
+?->Y:
+.5(Y+Conjg(Y->X:
+i(X-Y->Y:
+(Insert f(x,y) here):
+AnsM+:
+(Insert g(x,y) here):
+iAnsM+:
+X+Yi->Y:
+M->X:
+M⁻¹⁻¹:
+
+MM-:
+Y(CConjg(D)-DConjg(CM+:
+B(CConjg(X)-XConjg(CM-:
+A(DConjg(X)-XConjg(DM+:
+CConjg(D)-(C-D)Conjg(X:
+Ans-Conjg(Ans->C:
+
+B->A:
+Y->B:
+Ci=>M÷C->Y:
+D->C:
+X->D:
+MM-:
+WhileEnd
