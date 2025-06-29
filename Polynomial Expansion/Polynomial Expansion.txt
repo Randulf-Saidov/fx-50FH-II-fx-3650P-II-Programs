@@ -4,7 +4,7 @@ ClrMemory:
 ?->A:
 2π÷(A+1:
 cos(Ansʳ)+isin(Ansʳ->C:
-A->B:
+1->B:
 Lbl 1:
 BC->B:
 MM-:
