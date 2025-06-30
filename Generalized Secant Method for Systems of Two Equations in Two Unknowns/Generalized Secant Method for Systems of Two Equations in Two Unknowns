@@ -1,35 +1,4 @@
-Generalized Secant Method for Systems of Two Equations in Two Unknowns for fx-50FH II and fx-3650P II (CMPLX Mode) 149 + len(f(x,y)) + len(g(x,y)) bytes
-
-ClrMemory:
-Lbl 0:
-?->X:
-.5i(Conjg(X)-X->Y:
-X-Yi->X:
-MM-:
-(Insert f(x,y) here):
-AnsM+:
-(Insert g(x,y) here):
-iAnsM+:
-X+Yi->X:
-M->Y:
-
-MM-:
-If (X≠A)(A≠B:
-Then X(CConjg(D)-DConjg(CM+:
-B(CConjg(Y)-YConjg(CM-:
-A(DConjg(Y)-YConjg(DM+:
-CConjg(D)-(C-D)Conjg(Y:
-M÷(Ans-Conjg(Ans->M:
-IfEnd:
-
-B->A:
-X->B:
-M->X:
-D->C:
-Y->D:
-Goto 0
-
-(CMPLX Mode) 139 + len(f(x,y)) + len(g(x,y)) bytes
+Generalized Secant Method for Systems of Two Equations in Two Unknowns for fx-50FH II and fx-3650P II (CMPLX Mode) 139 + len(f(x,y)) + len(g(x,y)) bytes
 
 ClrMemory:
 While 1:
