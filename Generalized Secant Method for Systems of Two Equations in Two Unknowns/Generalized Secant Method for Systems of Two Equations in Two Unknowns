@@ -2,28 +2,28 @@ Generalized Secant Method for Systems of Two Equations in Two Unknowns for fx-50
 
 ClrMemory:
 While 1:
-?->Y:
-.5(Y+Conjg(Y->X:
-i(X-Y->Y:
+?->X:
+-.5(X-Conjg(X->Y:
+X-Yi->X:
 (Insert f(x,y) here):
 AnsM+:
 (Insert g(x,y) here):
 iAnsM+:
-X+Yi->Y:
-M->X:
+X+Yi->X:
+M->Y:
 M⁻¹⁻¹:
 
 MM-:
-Y(CConjg(D)-DConjg(CM+:
-B(CConjg(X)-XConjg(CM-:
-A(DConjg(X)-XConjg(DM+:
-CConjg(D)-(C-D)Conjg(X:
+X(CConjg(D)-DConjg(CM+:
+B(CConjg(Y)-YConjg(CM-:
+A(DConjg(Y)-YConjg(DM+:
+CConjg(D)-(C-D)Conjg(Y:
 Ans-Conjg(Ans->C:
 
 B->A:
-Y->B:
-Ci=>M÷C->Y:
+X->B:
+Ci=>M÷C->X:
 D->C:
-X->D:
+Y->D:
 MM-:
 WhileEnd
