@@ -5,5 +5,5 @@ Complex Number Raised to a Complex Power for fx-50FH II and fx-3650P II (CMPLX M
 .5(B+Conjg(B->C:
 i(C-B->D:
 Carg(A)+Dln(Abs(A:
-cos(Ansʳ)+isin(Ansʳ:
+1∠Ansʳ:
 AnsAbs(A)^(C)e^(-Darg(A
