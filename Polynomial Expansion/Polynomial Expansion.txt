@@ -1,20 +1,18 @@
-Polynomial Expansion for fx-50FH II and fx-3650P II (CMPLX Mode) 81 + len(f(x)) bytes
+Polynomial Expansion for fx-50FH II and fx-3650P II (CMPLX Mode) 70 + len(f(x)) bytes
 
 ClrMemory:
 ?->A:
-2π÷(A+1:
-1∠Ansʳ->C:
+1∠2πʳ┘A->C:
 1->B:
 Lbl 1:
 BC->B:
 MM-:
 1->X:
-A=>A+1->D:
 Lbl 2:
 (Insert function here):
-D⁻¹AnsM+:
+A⁻¹AnsM+:
 XC->X:
-B⁻¹D->D:
+AConjg(B->A:
 arg(X=>Goto 2:
 M◢
 arg(B=>Goto 1
