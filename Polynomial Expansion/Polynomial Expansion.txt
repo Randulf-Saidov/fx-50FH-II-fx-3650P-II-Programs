@@ -24,7 +24,7 @@ arg(B=>Goto 1
 ?->Y:
 Y-1:
 ?->A:
-Y=>2πʳ┘Y→C:
+Y=>2πʳ┘Y->C:
 MM-:
 YC->B:
 Lbl 1:
