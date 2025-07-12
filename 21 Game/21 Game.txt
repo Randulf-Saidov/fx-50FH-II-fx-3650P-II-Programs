@@ -1,0 +1,23 @@
+21 Game for fx-50 FH II and fX-3650P II 102 bytes
+
+ClrMemory:
+Fix 0:
+Lbl 0:
+If D:
+Then Lbl 1:
+?->X:
+X≠Rnd(X=>Goto 1:
+Rnd(3⁻¹(X-2=>Goto 1:
+M+X>21=>Goto 1:
+Else 21-M->X:
+M<18=>Rnd(3Ran#+.5->X:
+X◢
+IfEnd:
+XM+:
+M◢
+M≥21=>Goto 2:
+1-D->D:
+Goto 0:
+Lbl 2:
+π◢
+D
