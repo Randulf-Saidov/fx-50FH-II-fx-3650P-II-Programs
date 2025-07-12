@@ -1,4 +1,4 @@
-Complex Number Raised to a Complex Power for fx-50FH II and fx-3650P II (CMPLX Mode) 58 bytes
+Complex Number Raised to a Complex Power for fx-50FH II and fx-3650P II (CMPLX Mode) 53 bytes
 
 ?->A:
 ?->B:
