@@ -21,16 +21,16 @@ arg(B=>Goto 1
 
 65 + len(f(x)) bytes
 
-?→Y:
+?->Y:
 Y-1:
-?→A:
+?->A:
 MM-:
-2πʳY⁻¹Y→B:
+2πʳY⁻¹Y->B:
 Lbl 1:
-B-2πʳY⁻¹→B:
+B-2πʳY⁻¹->B:
 1∠B->X:
 (Insert function in terms of X):
 Ans÷Y∠ABM+:
-B⇒Goto 1:
-A-1→A:
+B=>Goto 1:
+A-1->A:
 M
