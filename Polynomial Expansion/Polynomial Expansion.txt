@@ -3,7 +3,7 @@ Polynomial Expansion for fx-50FH II and fx-3650P II (CMPLX Mode) 86 + len(f(x)) 
 ClrMemory:
 ?->A:
 2π÷(A+1:
-cos(Ansʳ)+isin(Ansʳ->C:
+1∠Ansʳ->C:
 1->B:
 Lbl 1:
 BC->B:
