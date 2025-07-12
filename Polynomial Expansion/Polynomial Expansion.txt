@@ -19,18 +19,20 @@ arg(X=>Goto 2:
 M◢
 arg(B=>Goto 1
 
-65 + len(f(x)) bytes
+68 + len(f(x)) bytes
 
 ?->Y:
 Y-1:
 ?->A:
+Y=>2πʳ┘Y→C:
 MM-:
-2πʳY⁻¹Y->B:
+YC->B:
 Lbl 1:
-B-2πʳY⁻¹->B:
-1∠B->X:
-(Insert function in terms of X):
-Ans÷Y∠ABM+:
+B-C->B:
+Y∠AB->D:
+1∠B:
+(Insert function in terms of Ans):
+D⁻¹AnsM+:
 B=>Goto 1:
 A-1->A:
 M
