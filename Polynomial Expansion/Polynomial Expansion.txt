@@ -21,9 +21,9 @@ arg(B=>Goto 1
 
 65 + len(f(x)) bytes
 
-?->A:
-A+1:
 ?->Y:
+Y-1:
+?->A:
 MM-:
 Y=>2πʳ->B:
 Lbl 1:
